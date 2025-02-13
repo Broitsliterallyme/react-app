@@ -22,8 +22,12 @@ const Navbar = () => {
         </li>
       </ul>
       <div className="SignLog">
-        <button className="SignIn">Sign In</button>
-        <button className="LogIn">Log In</button>
+      <NavLink to="/signup" className="SignIn">
+          Sign In
+        </NavLink>
+        <NavLink to="/login" className="LogIn">
+          Log In
+        </NavLink>
       </div>
     </div>
   );
