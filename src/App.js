@@ -6,6 +6,7 @@ import HomePage from './HomePage.js';
 import UnboundStoriesPage from './UnboundStoriesPage';
 import SignUpPage from './SignUpPage';
 import LoginPage from './LoginPage';
+import SignUpPageEmployer from './SignUpPage';
 
 function App() {
   return (
