@@ -5,6 +5,10 @@
     padding: 15px 30px;
     background-color: #ecedf3;  /* Old background color */
     color: white;
+    z-index: 100;
+      position: relative; /* or fixed */
+    
+    
   }
   
   .Logo {
@@ -77,10 +81,16 @@
     transition: all 0.3s ease;
   }
   
-  .SignLog .SignIn:hover,
-  .SignLog .LogIn:hover {
+  .SignLog .SignIn:hover{
     background-color: #e8def1;
     color: rgb(132, 70, 212);  /* Old hover color */
+    border-color: rgb(132, 70, 212);  /* Old hover border color */
+  }
+  
+  
+  .SignLog .LogIn:hover {
+    background-color: rgb(132, 70, 212);
+    color: #e8def1;  /* Old hover color */
     border-color: rgb(132, 70, 212);  /* Old hover border color */
   }
   

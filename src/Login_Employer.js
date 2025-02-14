@@ -1,12 +1,12 @@
 import React from 'react';
 
-const EmployerSignup = () => {
+const EmployeeSignup = () => {
   return (
     <div>
-      <h2>Employer Signup</h2>
+      <h2>Employer Login</h2>
       <p>Welcome! Please fill out your details.</p>
     </div>
   );
 };
 
-export default EmployerSignup; 
+export default EmployeeSignup; 

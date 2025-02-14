@@ -1,12 +1,16 @@
-import React from 'react';
-
-const LoginPage = () => {
+import React from "react";
+import { NavLink } from "react-router-dom";
+import "./LoginPage.css";
+const Login = () => {
   return (
-    <div>
-      <h1>Login Page</h1>
-      {/* Your Login form or content goes here */}
-    </div>
+      <div className="SignIn">
+      <NavLink to="/login/Employer" className="SignUp_Employer">
+          Employer Login
+        </NavLink>
+        <NavLink to="/login/Employee" className="SignUp_Employee">
+          Employee Login
+        </NavLink>
+      </div>
   );
 };
-
-export default LoginPage;
+export default Login;

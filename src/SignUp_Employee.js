@@ -9,4 +9,4 @@ const EmployeeSignup = () => {
   );
 };
 
-export default EmployeeSignup;  // ✅ Ensure it's exported properly
+export default EmployeeSignup;  

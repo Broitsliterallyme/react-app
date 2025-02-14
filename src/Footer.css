@@ -1,0 +1,9 @@
+
+  .Footer {
+    background: linear-gradient(to bottom, #9698F8,#ffffff);
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    z-index: -100;
+  }
+

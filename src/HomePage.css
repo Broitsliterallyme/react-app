@@ -1,22 +1,22 @@
-
 /* HomePage.css */
 
-.container {
+.Homecontainer {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  background: linear-gradient(to right, #6a11cb, #2575fc);
+  align-items: flex-start; /* Align items to the left */
+  justify-content: left;
+  background: linear-gradient(to right, #7779EC, #403491);
   color: white;
-  padding: 20px;
-  text-align: center;
+  padding: 50px;
+  text-align: left; /* Align text to the left */
 }
 
 .title {
-  font-size: 2.5rem;
+  font-size: 5.5rem;
   font-weight: bold;
   margin-bottom: 15px;
+  margin-right: 30%;
 }
 
 .description {
@@ -40,7 +40,32 @@
   cursor: pointer;
   transition: background 0.3s;
 }
-zz
+
 .button:hover {
   background-color: #e0e0e0;
 }
+.carousel-container {
+  width: 80%;
+  margin: 40px auto;
+}
+
+.carousel-slide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 300px; /* Adjust height as needed */
+  text-align: center;
+}
+
+.carousel-slide img {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+  border-radius: 10px;
+}
+
+
+
+
